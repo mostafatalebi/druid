@@ -146,7 +146,7 @@ java \
 ```
 
 You only have to install the extension once. Then, add `"druid-example-extension"` to
-`druid.extensions.loadList` in common.runtime.properties to instruct Druid to load the extension.
+`druid.extensions.loadList` in common.runtime.properties to instruct Druid to load the extension. Also make sure you run this command in the root of your druid directory.
 
 > Please make sure all the Extensions related configuration properties listed [here](../configuration/index.md#extensions) are set correctly.
 
